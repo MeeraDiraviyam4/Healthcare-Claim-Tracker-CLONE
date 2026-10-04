@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./ClaimCard.css";
+import "../styling/ClaimCard.css";
 
 function ClaimCard({ claim, isStaff = false, onApprove, onDeny }) {
 

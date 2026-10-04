@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import {getClaimsByUser} from "../services/api";
 import ClaimCard from "../components/ClaimCard";
 import Footer from "../components/Footer";
-import "./Claims.css";
+import "../styling/Claims.css";
 
 function Claims() {
 

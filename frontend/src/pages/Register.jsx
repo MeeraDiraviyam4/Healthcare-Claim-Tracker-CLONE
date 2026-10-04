@@ -3,7 +3,7 @@ import {Link, useNavigate} from "react-router-dom";
 import {registerUser} from  "../services/api";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import "../components/Form.css";
+import "../styling/Form.css";
 
 function Register() {
 

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { createClaim } from "../services/api";
 import Footer from "../components/Footer";
-import "../components/Form.css";
+import "../styling/Form.css";
 
 function SubmitClaim() {
     const [providerName, setProviderName] = useState("");

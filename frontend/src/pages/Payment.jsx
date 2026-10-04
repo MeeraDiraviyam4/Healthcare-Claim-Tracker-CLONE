@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import { getClaimsByUser, getPayment } from "../services/api";
 import Footer from "../components/Footer";
-import "./Payment.css";
-import "../components/PaymentCard.css";
+import "../styling/Payment.css";
+import "../styling/PaymentCard.css";
 
 function Payment() {
 
